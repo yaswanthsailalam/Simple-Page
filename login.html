@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<style type="text/css">
+		body{
+			background: url("images/image.png")no-repeat;background-size: cover;
+			background-origin: content-box;font-family: arial;
+		}
+		form{
+			top: 50%; left: 50%; transform: translate(-50%, -50%);background-color: #fff;
+			width: 350px;height: 400px;padding: 20px;position: absolute;
+		}
+		input[type="text"], input[name="password"]{
+			background: #eee;padding: 10px;border: 1px solid #ccc;width: 250px;
+			border-radius: 4px;
+		}
+		input[type="submit"]{
+			padding: 10px;width: 270px;background: #444;color: #fff;border: none;
+			border-radius: 3px;outline: none;cursor: pointer;
+		}
+		input[type="submit"]:hover{
+			background-color: #333;
+		}
+		label{
+			float: left;margin-left: 55px;font-weight: bold;opacity: .8;
+		}
+		.fbtn{
+			background: #fff;border: 1px solid #ccc;float: left;margin-left:40px;
+			border-radius: 4px;width: 110px;
+
+		}
+		.ggbtn{
+			background: #fff;border: 1px solid #ccc;float: left;margin-left: 50px;
+			border-radius: 3px;width: 110px;
+		}
+		.img{
+			width: 35px;height: auto;padding: 2px;
+		}
+
+
+	
+
+
+
+
+	</style>	
+</head>
+<body>
+	<center>
+		<form autocomplete="off">
+			<div>
+				<h2>Sign in with</h2>
+			</div><br>
+			
+			<div>
+				<button class="fbtn">
+					<img class="img" src="images/fb1.png">
+				</button>
+				<button class="ggbtn">
+					<img class="img" src="images/gg.png">
+				</button><br><br>
+			</div><br><br>
+			
+			<div>
+				<label>Username</label><br><br>
+				<input type="text" name="username">
+			</div><br>
+			
+			<div>
+				<label>Password</label><br><br>
+				<input type="password" name="password">
+			</div><br>
+			
+			<div>
+				<input type="submit" name="submit" value="Sign In">
+			</div><br><br>
+
+		</form>
+	</center>
+</body>
+</html>
